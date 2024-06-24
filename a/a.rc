@@ -1,0 +1,192 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// í•œêµ­ì–´(ëŒ€í•œë¯¼êµ­) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_IDLELEFT            BITMAP                  ".\\idle_left.bmp"
+
+IDB_IDLERIGHT           BITMAP                  "idle_right.bmp"
+
+IDB_RUNLEFT             BITMAP                  "run_left.bmp"
+
+IDB_RUNRIGHT            BITMAP                  "run_right.bmp"
+
+IDB_IDLELEFTMASK        BITMAP                  "idle_left_mask.bmp"
+
+IDB_IDLERIGHTMASK       BITMAP                  "idle_right_mask.bmp"
+
+IDB_RUNLEFTMASK         BITMAP                  "run_left_mask.bmp"
+
+IDB_RUNRIGHTMASK        BITMAP                  "run_right_mask.bmp"
+
+IDB_BACKGROUND          BITMAP                  "background.bmp"
+
+IDB_HURTLEFT            BITMAP                  "hurt_left.bmp"
+
+IDB_HURTLEFTMASK        BITMAP                  "hurt_left_mask.bmp"
+
+IDB_HURTRIGHT           BITMAP                  "hurt_right.bmp"
+
+IDB_HURTRIGHTMASK       BITMAP                  "hurt_right_mask.bmp"
+
+IDB_JUMPLEFT            BITMAP                  "jump_left.bmp"
+
+IDB_JUMPRIGHT           BITMAP                  "jump_right.bmp"
+
+IDB_JUMPLEFTMASK        BITMAP                  "jump_left_mask.bmp"
+
+IDB_JUMPRIGHTMASK       BITMAP                  "jump_right_mask.bmp"
+
+IDB_ATTACKRIGHT         BITMAP                  "lightattack_right.bmp"
+
+IDB_ATTACKLEFT          BITMAP                  "lightattack_left.bmp"
+
+IDB_ATTACKRIGHTMASK     BITMAP                  "lightattack_right_mask.bmp"
+
+IDB_ATTACKLEFTMASK      BITMAP                  "lightattack_left_mask.bmp"
+
+IDB_ENEMY_RUN_LEFT      BITMAP                  "enemy_run_left.bmp"
+
+IDB_ENEMY_RUN_RIGHT     BITMAP                  "enemy_run_right.bmp"
+
+IDB_BACKGROUND1         BITMAP                  "background_1.bmp"
+
+IDB_BACKGROUND1_MASK    BITMAP                  "background_1_mask.bmp"
+
+IDB_BACKGROUND2         BITMAP                  "background_2.bmp"
+
+IDB_BACKGROUND2_MASK    BITMAP                  "background_2_mask.bmp"
+
+IDB_TILESET             BITMAP                  "tileset.bmp"
+
+IDB_TILESET_MASK        BITMAP                  "tileset_mask.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "¼³Á¤"
+    BEGIN
+        MENUITEM "³­ÀÌµµ ¼³Á¤",                      ID_DIFFICULTY
+        MENUITEM "Àç½ÃÀÛ",                         ID_RESTART
+        MENUITEM "Á¾·á",                          ID_QUIT
+    END
+    POPUP "Debug"
+    BEGIN
+        MENUITEM "Hitbox",                      ID_DEBUG_HITBOX
+        MENUITEM "Value",                       40006
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NAME DIALOGEX 0, 0, 171, 107
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ÀÔ·Â",ID_OK,56,60,50,14
+    LTEXT           "ÀÌ¸§À» ÀÔ·ÂÇØ ÁÖ¼¼¿ä",IDC_STATIC,52,20,83,9
+    EDITTEXT        IDC_NAME,34,36,93,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_NAME AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // í•œêµ­ì–´(ëŒ€í•œë¯¼êµ­) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
